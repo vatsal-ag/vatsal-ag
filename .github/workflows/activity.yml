@@ -14,3 +14,6 @@ jobs:
       - uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          COMMIT_NAME: "vatsal-ag"
+          COMMIT_EMAIL: "117094352+vatsal-ag@users.noreply.github.com"
