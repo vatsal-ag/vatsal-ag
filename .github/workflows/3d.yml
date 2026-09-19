@@ -19,7 +19,7 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config user.name "vatsal-ag"
+          git config user.email "117094352+vatsal-ag@users.noreply.github.com"
           git add -A .
           git diff-index --quiet HEAD || (git commit -m "Generated 3D Profile" && git push)
